@@ -1,39 +1,42 @@
 # 🔐 Password Strength Analysis Tool
 
-A powerful and context-aware password strength analyzer built with Python. This tool simulates real-world cracking tactics by evaluating entropy, detecting common patterns, and identifying the use of personal information in passwords. It also supports bulk password analysis, strong password generation, and secure report handling.
+A smart, offline Python-based command-line utility that evaluates password strength using entropy models, human behavior detection, and context-aware security checks. Ideal for individuals, cybersecurity learners, developers, and IT teams.
 
 ---
 
 ## 🚀 Features
 
-- **Entropy-Based Strength Estimation**
-  - Calculates password entropy to measure true randomness and strength.
-  
-- **Pattern Recognition**
-  - Detects repeated characters, sequences, and common keyboard patterns.
+- **🔢 Entropy-Based Strength Estimation**  
+  Understand how unpredictable your password is with a mathematical entropy model.
 
-- **Personal Info Checks**
-  - Flags passwords containing names, birthdates, or emails.
+- **🧠 Human Behavior Simulation**  
+  Detects common patterns like `1234`, `qwerty`, and repeated characters.
 
-- **File-Based Scanning**
-  - Analyzes `.txt` or `.csv` files of passwords.
-  - Redaction and SHA-256 encryption support.
-  - Flags duplicates and weak entries.
+- **👤 Context Awareness**  
+  Optionally checks for names, birthdates, or emails in passwords.
 
-- **Human-Readable Feedback**
-  - Provides actionable suggestions and crack time estimates.
+- **📁 Password File Scanner**  
+  Scan `.txt` or `.csv` files of saved passwords, detect duplicates, flag weak entries.
 
-- **Strong Password Generator**
-  - Generates secure passwords using uppercase, lowercase, numbers, and symbols.
+- **🔐 Secure Reports**  
+  Supports SHA-256 hashing and password redaction for privacy in reports.
 
-- **CLI Interface**
-  - Menu-driven terminal utility with intuitive user prompts.
+- **🛡️ Strong Password Generator**  
+  Auto-generates secure passwords with symbols, uppercase, and digits.
+
+- **📊 Crack Time Estimation**  
+  Approximates how long a password would take to be cracked.
+
+- **🖥️ CLI-Based Tool**  
+  Simple, menu-driven interface—run directly in terminal or command prompt.
 
 ---
 
-## 📦 Installation
+## 🧭 How to Use
+
+### 📥 Clone & Run
 
 ```bash
-git clone https://github.com/yourusername/password-strength-analysis-tool.git
-cd password-strength-analysis-tool
+git clone https://github.com/ritik2898/Password_Strength_Analysis_Tool.git
+cd Password_Strength_Analysis_Tool
 python Password_tool_.py
